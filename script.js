@@ -5,7 +5,7 @@ function getFormvalue() {
 
 		if( firstName !== "" && lastName !== "")
 		{
-			alert("First name:" +  firstName + "\nLast name:" + lastName);
+			alert( firstName + " " + lastName);
 		}
 		else{
 			alert("Enter your first and last name.");
